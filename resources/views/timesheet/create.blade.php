@@ -57,7 +57,7 @@
             
             			<div class="form-group{{ $errors->has('desconto') ? ' has-error' : '' }}">
                             <label for="desconto" class="col-md-4 control-label">Desconto / Translado:</label>
-                            <div class="col-md-3">
+                            <div class="col-md-3"> 
                                 <input id="desconto" type="time" class="form-control" onchange="carregarTotal()" name="desconto" value="00:00" required >
                                 @if ($errors->has('desconto'))
                                     <span class="help-block">
